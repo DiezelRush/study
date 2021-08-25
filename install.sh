@@ -51,6 +51,9 @@ sudo sh -c 'echo "deb http://linux.teamviewer.com/deb stable main" >> /etc/apt/s
 sudo apt update -y
 sudo apt install teamviewer -y
 
+#ksnip
+
+sudo snap ksnip -y
 
 #Kerio-kvc
 
@@ -62,3 +65,5 @@ systemctl start kerio-kvc.service
 
 sudo apt update -y
 sudo apt upgrade -y
+
+
